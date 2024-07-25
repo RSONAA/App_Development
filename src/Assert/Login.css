@@ -1,0 +1,83 @@
+.error {
+    color: rgb(62, 47, 47);
+    font-size: 0.875em;
+    margin-top: 0.25em;
+}
+.login_page{
+
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-image: url('https://img.freepik.com/free-vector/realistic-style-technology-particle-background_23-2148426704.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1721692800&semt=ais_user');
+  background-repeat: no-repeat;
+  height: 1000%;
+  width: 100%;
+  background-size: cover;
+}
+.one,.login
+{
+  display: flex;
+  flex-direction: column;
+  /* background-color:whitesmoke; */
+  background-color: rgba(255, 255, 255, 0.2);
+  /* box-shadow: 200px; */
+  /* height: 900px; */
+  /* width: 500px; */
+  border-radius: 30px;
+  height: fit-content;
+  width: 450px;
+
+}
+label{
+    text-align: center;
+    padding:10px;
+    font-size: 25px;
+    
+  
+}
+::placeholder
+{
+text-align: justify;
+}
+input
+{
+    margin:0.5rem 0;
+    padding: 20px;
+    border: 2px solid;
+    border-radius: 10px;
+    /* width: 180px; */
+    padding-left: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+  
+  
+}
+
+.button1
+{
+  margin-left: 150px;
+  margin-right: 150px;
+ 
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 10px;
+  color: white;
+  background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+  font-size: 20px;
+  margin-top: 20px;
+  padding-top: 15px;
+}
+.button2
+{
+  background:none;
+  border:none;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  font-size: 15px;
+
+  /* text-decoration: underline; */
+  /* padding-top: 20px; */
+
+}
